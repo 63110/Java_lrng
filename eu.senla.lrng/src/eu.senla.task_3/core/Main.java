@@ -43,7 +43,7 @@ public class Main {
             System.out.println("Age:" + cat.getCatAge1());
         }
 
-//<<<<<<<<<<<<<<task2,1>>>>>>>>>>>>>
+//<<<<<<<<<<<<<<task3,2>>>>>>>>>>>>>
         Cat cat1 = new Cat();
         cat1.name = "Glent";
         cat1.age = 12;
