@@ -2,26 +2,21 @@ package eu.senla.task_3;
 
 public class Cat {
 
-    public String  name= "dasdsa";
-    public  int  age = 1231;
-
-    public Cat (String name, int age)
-    {
+    public String name = "dasdsa";
+    public int age = 1231;
+    String catName = "feodor";
+    String catAge = "12y.o";
+    private String catName1;
+    private int catAge1;
+    public Cat(String name, int age) {
         this.name = name;
         this.age = age;
 
     }
 
+    public Cat() {
 
-
-
-
-    String catName = "feodor";
-    String catAge = "12y.o";
-
-
-    private String  catName1;
-    private int catAge1;
+    }
 
     public String getCatName1() {
         return catName1;
@@ -49,9 +44,6 @@ public class Cat {
 
         }
     }
-
-
-
 
 
 }
